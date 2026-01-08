@@ -13,6 +13,240 @@ const Time = {
 }
 
 export const originSources = {
+  // ==================== ITALIA ====================
+  "ansa": {
+    name: "ANSA",
+    color: "blue",
+    column: "italy",
+    type: "realtime",
+    home: "https://www.ansa.it",
+  },
+  "repubblica": {
+    name: "Repubblica",
+    color: "red",
+    column: "italy",
+    type: "realtime",
+    home: "https://www.repubblica.it",
+  },
+  "corriere": {
+    name: "Corriere",
+    color: "blue",
+    column: "italy",
+    type: "realtime",
+    home: "https://www.corriere.it",
+  },
+  "ilsole24ore": {
+    name: "Il Sole 24 Ore",
+    color: "orange",
+    column: "finance",
+    type: "realtime",
+    home: "https://www.ilsole24ore.com",
+  },
+  "skytg24": {
+    name: "Sky TG24",
+    color: "red",
+    column: "italy",
+    type: "realtime",
+    home: "https://tg24.sky.it",
+  },
+  "fanpage": {
+    name: "Fanpage",
+    color: "purple",
+    column: "italy",
+    type: "hottest",
+    home: "https://www.fanpage.it",
+  },
+  "ilpost": {
+    name: "Il Post",
+    color: "slate",
+    column: "italy",
+    type: "realtime",
+    home: "https://www.ilpost.it",
+  },
+  "agi": {
+    name: "AGI",
+    color: "blue",
+    column: "italy",
+    type: "realtime",
+    home: "https://www.agi.it",
+  },
+
+  // ==================== USA ====================
+  "cnn": {
+    name: "CNN",
+    color: "red",
+    column: "usa",
+    type: "realtime",
+    home: "https://www.cnn.com",
+  },
+  "foxnews": {
+    name: "Fox News",
+    color: "blue",
+    column: "usa",
+    type: "hottest",
+    home: "https://www.foxnews.com",
+  },
+  "nytimes": {
+    name: "NY Times",
+    color: "gray",
+    column: "usa",
+    type: "realtime",
+    home: "https://www.nytimes.com",
+  },
+  "washingtonpost": {
+    name: "Washington Post",
+    color: "gray",
+    column: "usa",
+    type: "realtime",
+    home: "https://www.washingtonpost.com",
+  },
+  "nbcnews": {
+    name: "NBC News",
+    color: "blue",
+    column: "usa",
+    type: "realtime",
+    home: "https://www.nbcnews.com",
+  },
+  "abcnews": {
+    name: "ABC News",
+    color: "blue",
+    column: "usa",
+    type: "realtime",
+    home: "https://abcnews.go.com",
+  },
+  "npr": {
+    name: "NPR",
+    color: "blue",
+    column: "usa",
+    type: "realtime",
+    home: "https://www.npr.org",
+  },
+  "usatoday": {
+    name: "USA Today",
+    color: "blue",
+    column: "usa",
+    type: "hottest",
+    home: "https://www.usatoday.com",
+  },
+  "politico": {
+    name: "Politico",
+    color: "red",
+    column: "usa",
+    type: "realtime",
+    home: "https://www.politico.com",
+  },
+  "axios": {
+    name: "Axios",
+    color: "teal",
+    column: "usa",
+    type: "realtime",
+    home: "https://www.axios.com",
+  },
+
+  // ==================== EUROPE ====================
+  "bbc": {
+    name: "BBC News",
+    color: "red",
+    column: "europe",
+    type: "realtime",
+    home: "https://www.bbc.com/news",
+  },
+  "reuters": {
+    name: "Reuters",
+    color: "orange",
+    column: "world",
+    type: "realtime",
+    home: "https://www.reuters.com",
+  },
+  "guardian": {
+    name: "The Guardian",
+    color: "blue",
+    column: "europe",
+    type: "realtime",
+    home: "https://www.theguardian.com",
+  },
+  "aljazeera": {
+    name: "Al Jazeera",
+    color: "orange",
+    column: "world",
+    type: "realtime",
+    home: "https://www.aljazeera.com",
+  },
+  "dw": {
+    name: "DW News",
+    color: "blue",
+    column: "europe",
+    type: "realtime",
+    home: "https://www.dw.com",
+  },
+  "france24": {
+    name: "France 24",
+    color: "blue",
+    column: "europe",
+    type: "realtime",
+    home: "https://www.france24.com",
+  },
+  "euronews": {
+    name: "Euronews",
+    color: "blue",
+    column: "europe",
+    type: "realtime",
+    home: "https://www.euronews.com",
+  },
+
+  // ==================== TECH (International) ====================
+  "techcrunch": {
+    name: "TechCrunch",
+    color: "green",
+    column: "tech",
+    type: "realtime",
+    home: "https://techcrunch.com",
+  },
+  "theverge": {
+    name: "The Verge",
+    color: "purple",
+    column: "tech",
+    type: "realtime",
+    home: "https://www.theverge.com",
+  },
+  "arstechnica": {
+    name: "Ars Technica",
+    color: "orange",
+    column: "tech",
+    type: "realtime",
+    home: "https://arstechnica.com",
+  },
+  "wired": {
+    name: "Wired",
+    color: "gray",
+    column: "tech",
+    type: "realtime",
+    home: "https://www.wired.com",
+  },
+  "reddit": {
+    name: "Reddit",
+    color: "orange",
+    home: "https://www.reddit.com",
+    sub: {
+      worldnews: {
+        title: "World News",
+        column: "world",
+        type: "hottest",
+      },
+      technology: {
+        title: "Technology",
+        column: "tech",
+        type: "hottest",
+      },
+      news: {
+        title: "News",
+        column: "usa",
+        type: "hottest",
+      },
+    },
+  },
+
+  // ==================== CHINA (Original) ====================
   "v2ex": {
     name: "V2EX",
     color: "slate",

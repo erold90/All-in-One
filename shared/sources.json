@@ -1,4 +1,273 @@
 {
+  "ansa": {
+    "name": "ANSA",
+    "type": "realtime",
+    "column": "italy",
+    "home": "https://www.ansa.it",
+    "color": "blue",
+    "interval": 600000
+  },
+  "repubblica": {
+    "name": "Repubblica",
+    "type": "realtime",
+    "column": "italy",
+    "home": "https://www.repubblica.it",
+    "color": "red",
+    "interval": 600000
+  },
+  "corriere": {
+    "name": "Corriere",
+    "type": "realtime",
+    "column": "italy",
+    "home": "https://www.corriere.it",
+    "color": "blue",
+    "interval": 600000
+  },
+  "ilsole24ore": {
+    "name": "Il Sole 24 Ore",
+    "type": "realtime",
+    "column": "finance",
+    "home": "https://www.ilsole24ore.com",
+    "color": "orange",
+    "interval": 600000
+  },
+  "skytg24": {
+    "name": "Sky TG24",
+    "type": "realtime",
+    "column": "italy",
+    "home": "https://tg24.sky.it",
+    "color": "red",
+    "interval": 600000
+  },
+  "fanpage": {
+    "name": "Fanpage",
+    "type": "hottest",
+    "column": "italy",
+    "home": "https://www.fanpage.it",
+    "color": "purple",
+    "interval": 600000
+  },
+  "ilpost": {
+    "name": "Il Post",
+    "type": "realtime",
+    "column": "italy",
+    "home": "https://www.ilpost.it",
+    "color": "slate",
+    "interval": 600000
+  },
+  "agi": {
+    "name": "AGI",
+    "type": "realtime",
+    "column": "italy",
+    "home": "https://www.agi.it",
+    "color": "blue",
+    "interval": 600000
+  },
+  "cnn": {
+    "name": "CNN",
+    "type": "realtime",
+    "column": "usa",
+    "home": "https://www.cnn.com",
+    "color": "red",
+    "interval": 600000
+  },
+  "foxnews": {
+    "name": "Fox News",
+    "type": "hottest",
+    "column": "usa",
+    "home": "https://www.foxnews.com",
+    "color": "blue",
+    "interval": 600000
+  },
+  "nytimes": {
+    "name": "NY Times",
+    "type": "realtime",
+    "column": "usa",
+    "home": "https://www.nytimes.com",
+    "color": "gray",
+    "interval": 600000
+  },
+  "washingtonpost": {
+    "name": "Washington Post",
+    "type": "realtime",
+    "column": "usa",
+    "home": "https://www.washingtonpost.com",
+    "color": "gray",
+    "interval": 600000
+  },
+  "nbcnews": {
+    "name": "NBC News",
+    "type": "realtime",
+    "column": "usa",
+    "home": "https://www.nbcnews.com",
+    "color": "blue",
+    "interval": 600000
+  },
+  "abcnews": {
+    "name": "ABC News",
+    "type": "realtime",
+    "column": "usa",
+    "home": "https://abcnews.go.com",
+    "color": "blue",
+    "interval": 600000
+  },
+  "npr": {
+    "name": "NPR",
+    "type": "realtime",
+    "column": "usa",
+    "home": "https://www.npr.org",
+    "color": "blue",
+    "interval": 600000
+  },
+  "usatoday": {
+    "name": "USA Today",
+    "type": "hottest",
+    "column": "usa",
+    "home": "https://www.usatoday.com",
+    "color": "blue",
+    "interval": 600000
+  },
+  "politico": {
+    "name": "Politico",
+    "type": "realtime",
+    "column": "usa",
+    "home": "https://www.politico.com",
+    "color": "red",
+    "interval": 600000
+  },
+  "axios": {
+    "name": "Axios",
+    "type": "realtime",
+    "column": "usa",
+    "home": "https://www.axios.com",
+    "color": "teal",
+    "interval": 600000
+  },
+  "bbc": {
+    "name": "BBC News",
+    "type": "realtime",
+    "column": "europe",
+    "home": "https://www.bbc.com/news",
+    "color": "red",
+    "interval": 600000
+  },
+  "reuters": {
+    "name": "Reuters",
+    "type": "realtime",
+    "column": "world",
+    "home": "https://www.reuters.com",
+    "color": "orange",
+    "interval": 600000
+  },
+  "guardian": {
+    "name": "The Guardian",
+    "type": "realtime",
+    "column": "europe",
+    "home": "https://www.theguardian.com",
+    "color": "blue",
+    "interval": 600000
+  },
+  "aljazeera": {
+    "name": "Al Jazeera",
+    "type": "realtime",
+    "column": "world",
+    "home": "https://www.aljazeera.com",
+    "color": "orange",
+    "interval": 600000
+  },
+  "dw": {
+    "name": "DW News",
+    "type": "realtime",
+    "column": "europe",
+    "home": "https://www.dw.com",
+    "color": "blue",
+    "interval": 600000
+  },
+  "france24": {
+    "name": "France 24",
+    "type": "realtime",
+    "column": "europe",
+    "home": "https://www.france24.com",
+    "color": "blue",
+    "interval": 600000
+  },
+  "euronews": {
+    "name": "Euronews",
+    "type": "realtime",
+    "column": "europe",
+    "home": "https://www.euronews.com",
+    "color": "blue",
+    "interval": 600000
+  },
+  "techcrunch": {
+    "name": "TechCrunch",
+    "type": "realtime",
+    "column": "tech",
+    "home": "https://techcrunch.com",
+    "color": "green",
+    "interval": 600000
+  },
+  "theverge": {
+    "name": "The Verge",
+    "type": "realtime",
+    "column": "tech",
+    "home": "https://www.theverge.com",
+    "color": "purple",
+    "interval": 600000
+  },
+  "arstechnica": {
+    "name": "Ars Technica",
+    "type": "realtime",
+    "column": "tech",
+    "home": "https://arstechnica.com",
+    "color": "orange",
+    "interval": 600000
+  },
+  "wired": {
+    "name": "Wired",
+    "type": "realtime",
+    "column": "tech",
+    "home": "https://www.wired.com",
+    "color": "gray",
+    "interval": 600000
+  },
+  "reddit": {
+    "redirect": "reddit-worldnews",
+    "name": "Reddit",
+    "type": "hottest",
+    "column": "world",
+    "home": "https://www.reddit.com",
+    "color": "orange",
+    "interval": 600000,
+    "title": "World News"
+  },
+  "reddit-worldnews": {
+    "name": "Reddit",
+    "type": "hottest",
+    "column": "world",
+    "home": "https://www.reddit.com",
+    "color": "orange",
+    "interval": 600000,
+    "title": "World News"
+  },
+  "reddit-technology": {
+    "name": "Reddit",
+    "type": "hottest",
+    "column": "tech",
+    "home": "https://www.reddit.com",
+    "color": "orange",
+    "interval": 600000,
+    "title": "Technology"
+  },
+  "reddit-news": {
+    "name": "Reddit",
+    "type": "hottest",
+    "column": "usa",
+    "home": "https://www.reddit.com",
+    "color": "orange",
+    "interval": 600000,
+    "title": "News"
+  },
   "v2ex": {
     "redirect": "v2ex-share",
     "name": "V2EX",
@@ -367,35 +636,6 @@
     "color": "blue",
     "interval": 600000,
     "title": "热搜"
-  },
-  "bilibili-hot-video": {
-    "name": "哔哩哔哩",
-    "type": "hottest",
-    "disable": "cf",
-    "column": "china",
-    "home": "https://www.bilibili.com",
-    "color": "blue",
-    "interval": 600000,
-    "title": "热门视频"
-  },
-  "bilibili-ranking": {
-    "name": "哔哩哔哩",
-    "type": "hottest",
-    "disable": "cf",
-    "column": "china",
-    "home": "https://www.bilibili.com",
-    "color": "blue",
-    "interval": 1800000,
-    "title": "排行榜"
-  },
-  "kuaishou": {
-    "name": "快手",
-    "type": "hottest",
-    "disable": "cf",
-    "column": "china",
-    "home": "https://www.kuaishou.com",
-    "color": "orange",
-    "interval": 600000
   },
   "kaopu": {
     "name": "靠谱新闻",
