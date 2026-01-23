@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erold90 - Live Betting Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Live Betting Tracker</h1>
+            <div class="tipster-info">
+                <span class="tipster-label">Tipster:</span>
+                <span class="tipster-name">Erold90</span>
+            </div>
+        </div>
+        <div class="refresh-controls">
+            <span id="last-update">Ultimo aggiornamento: --:--:--</span>
+            <button id="refresh-btn" class="btn-refresh">
+                <span class="refresh-icon">&#8635;</span> Aggiorna
+            </button>
+            <label class="auto-refresh">
+                <input type="checkbox" id="auto-refresh" checked>
+                Auto-refresh (30s)
+            </label>
+        </div>
+    </header>
+
+    <main>
+        <section class="summary-cards">
+            <div class="summary-card total-stake">
+                <div class="card-label">Puntata Totale</div>
+                <div class="card-value" id="total-stake">20,00 €</div>
+            </div>
+            <div class="summary-card potential-win">
+                <div class="card-label">Vincita Potenziale</div>
+                <div class="card-value" id="potential-win">8.570,59 €</div>
+            </div>
+            <div class="summary-card current-status">
+                <div class="card-label">Stato Attuale</div>
+                <div class="card-value" id="current-status">
+                    <span class="status-badge pending">In corso</span>
+                </div>
+            </div>
+            <div class="summary-card active-bets">
+                <div class="card-label">Schedine Attive</div>
+                <div class="card-value" id="active-bets">4</div>
+            </div>
+        </section>
+
+        <section class="matches-overview">
+            <h2>Panoramica Partite</h2>
+            <div class="matches-grid" id="matches-grid">
+                <!-- Matches will be populated by JavaScript -->
+            </div>
+        </section>
+
+        <section class="betting-slips">
+            <h2>Le Mie Schedine</h2>
+            <div class="slips-container" id="slips-container">
+                <!-- Betting slips will be populated by JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Seguimi su <strong>Tipster</strong> - <span class="tipster-highlight">Erold90</span></p>
+        <p class="disclaimer">sisal.it/tipster</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
